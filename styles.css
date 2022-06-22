@@ -1,0 +1,47 @@
+body {
+  background-color: #e3c7ff;
+}
+
+hr {
+  border-color: #fbe4ff;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-width: 6px;
+  width: 15%;
+  height: 10px;
+}
+
+h1 {
+  color: #7014cc;
+}
+
+h2 {
+  color: #883bd5;
+}
+
+.tableCells {
+  color: #495057;
+  border-style: none;
+  background-color: #ffffffaa;
+}
+
+.tableHead {
+  border-style: none;
+  background-color: #b28dff;
+  color: #ffffff;
+}
+
+.text1 {
+  color: #495057;
+}
+
+.skillsTable {
+  color: #495057;
+  border-style: none;
+}
+
+.skillsCells {
+  color: #495057;
+  border-style: none;
+  background-color: #ffffffaa;
+}
