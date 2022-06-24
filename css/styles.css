@@ -1,47 +1,53 @@
 body {
-  background-color: #e3c7ff;
-}
-
-hr {
-  border-color: #fbe4ff;
-  border-style: none;
-  border-bottom-style: dotted;
-  border-width: 6px;
-  width: 15%;
-  height: 10px;
+  background-color: #02010a;
+  margin: 0;
+  color: whitesmoke;
+  text-align: center;
 }
 
 h1 {
-  color: #7014cc;
+  border-style: 0px;
+  font-family: 'Inter', sans-serif;
+  font-size: 500%;
+  margin:10px;
+  margin-top: 0;
 }
 
-h2 {
-  color: #883bd5;
+p {
+  border-style: 0px;
+  margin: 0 10px 0;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 200%;
 }
 
-.tableCells {
-  color: #495057;
-  border-style: none;
-  background-color: #ffffffaa;
+span {
+  color: mediumpurple;
 }
 
-.tableHead {
-  border-style: none;
-  background-color: #b28dff;
-  color: #ffffff;
+.init {
+  padding-top: 20px;
+  font-family: 'Inter', sans-serif;
 }
 
-.text1 {
-  color: #495057;
+div {
+  position: relative;
+  margin: 0;
+  border: 0;
 }
 
-.skillsTable {
-  color: #495057;
-  border-style: none;
+.char {
+  border: 0;
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
-.skillsCells {
-  color: #495057;
-  border-style: none;
-  background-color: #ffffffaa;
+.g1 {
+  width: 15%;
+  position: fixed;
+  right: 10%;
+  bottom: 20%;
 }
+          
