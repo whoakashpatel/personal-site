@@ -1,4 +1,4 @@
-# personal-site-1
+# personal-site-2
 
 This was in alliance with the course that I'm enrolled into for Full Stack Web Dev.
 
