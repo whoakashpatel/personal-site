@@ -1,55 +1,69 @@
 body {
-  background-color: #02010a;
-  margin: 0;
-  color: whitesmoke;
   text-align: center;
+  background-color: #0e1316;
+  color: whitesmoke;
 }
 
 h1 {
-  width: 100%;
-  height: 100px;
-  border-style: 0px;
+  margin: 0 auto 0 auto;
+  font-size: 25vw;
   font-family: 'Inter', sans-serif;
-  font-size: 500%;
-  margin:10px;
-  margin-top: 0;
 }
 
 p {
-  border-style: 0px;
-  margin: 0 10px 0;
+  margin: 0 auto 0 auto;
+  padding-right: 4%;
+  padding-left: 4%;
+}
+
+hr {
+  border-color: #e6f2ff;
+  border-style: none;
+  border-bottom-style: dotted;
+  border-width: 0.8vh;
+  width: 15%;
+  height: 2vh;
+}
+
+.blank {
+  height: 45vh;
+}
+
+.hr1 {
+  border-color: #e6f2ff;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 0.8vh;
+  width: 15%;
+  height: 2vh;
+}
+
+.htext {
+  font-size: 6vw;
   font-family: 'Rajdhani', sans-serif;
-  font-size: 200%;
 }
 
-span {
-  color: mediumpurple;
-}
-
-.init {
-  padding-top: 20px;
+.pretext {
+  padding-top: 5vw;
+  font-size: 6vw;
   font-family: 'Inter', sans-serif;
 }
 
-div {
-  position: relative;
-  margin: 0;
-  border: 0;
+.atext {
+  color: #a760ff;
 }
 
 .char {
-  border: 0;
-  margin: 0;
-  width: 100%;
+  height: 50vh;
+  margin: 0 auto;
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
 }
 
 .g1 {
-  width: 15%;
+  height: 10vh;
   position: fixed;
-  right: 10%;
-  bottom: 20%;
+  bottom: 18vh;
+  left: 8vw;
 }
-          
