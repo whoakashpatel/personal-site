@@ -25,6 +25,15 @@ hr {
   height: 2vh;
 }
 
+.hr1 {
+  border-color: #e6f2ff;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 20px;
+  width: 15%;
+  height: 2vh;
+}
+
 .blank {
   height: 45vh;
 }
