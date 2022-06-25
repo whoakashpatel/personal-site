@@ -54,7 +54,7 @@ hr {
 }
 
 .char {
-  height: 50vh;
+  height: 45vh;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -64,5 +64,5 @@ hr {
   height: 10vh;
   position: fixed;
   bottom: 18vh;
-  left: 8vw;
+  left: 10vw;
 }
