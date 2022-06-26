@@ -2,5 +2,5 @@
 
 This was in alliance with the course that I'm enrolled into for Full Stack Web Dev.
 
-Here's a link to the webpage:
+Here's a link to the webpage (now being published with the #2 branch):
 https://whoakashpatel.github.io/personal-site/
