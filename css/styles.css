@@ -2,12 +2,20 @@ body {
   text-align: center;
   background-color: #0e1316;
   color: whitesmoke;
+  margin: 0;
 }
 
 h1 {
   margin: 0 auto 0 auto;
   font-size: 25vw;
   font-family: 'Inter', sans-serif;
+}
+
+h2 {
+  color: #9d4edd;
+  font-size: 12vw;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
 }
 
 p {
@@ -20,17 +28,8 @@ hr {
   border-color: #e6f2ff;
   border-style: none;
   border-bottom-style: dotted;
-  border-width: 20px;
-  width: 15%;
-  height: 2vh;
-}
-
-.hr1 {
-  border-color: #e6f2ff;
-  border-style: none;
-  border-top-style: dotted;
-  border-width: 20px;
-  width: 15%;
+  border-width: 3vw;
+  width: 15vh;
   height: 2vh;
 }
 
@@ -39,8 +38,10 @@ hr {
 }
 
 .htext {
-  font-size: 6vw;
+  font-size: 5vw;
   font-family: 'Rajdhani', sans-serif;
+  margin-top: 5vw;
+  margin-bottom: 0;
 }
 
 .pretext {
@@ -50,11 +51,14 @@ hr {
 }
 
 .atext {
+  font-size: 6vw;
   color: #a760ff;
+  margin-top: 0;
 }
 
 .char {
   height: 45vh;
+  margin: 0 auto;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -64,5 +68,67 @@ hr {
   height: 10vh;
   position: fixed;
   bottom: 18vh;
-  left: 10vw;
+  left: 8vw;
+}
+
+.profile {
+  width: 10vh;
+  float: left;
+  margin-right: 7vw;
+}
+
+.username {
+  text-align: left;
+  font-size: 6vw;
+  font-family: 'Rajdhani', sans-serif;
+  color: #a760ff;
+  padding-top: 5vw;
+}
+
+h4 {
+  font-size: 5vw;
+  text-align: left;
+  line-height: 0;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: normal;
+}
+
+.div-std {
+  width: 95vw;
+  margin: 7vh auto;
+}
+
+.div-socials {
+  width: 95vw;
+  margin: 15vw 10vw;
+}
+
+.icons {
+  width: 30vw;
+  border-radius: 100%;
+  margin-bottom: 5vw;
+}
+
+.skills-img {
+  float: right;
+  margin-left: 5vw;
+}
+
+.contact-img {
+  float: left;
+  margin-right: 5vw;
+}
+
+.desc {
+  font-size: 5vw;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: left;
+}
+
+.reldiv {
+  background-color: #0e1316aa;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 42vh;
 }
