@@ -2,7 +2,6 @@ body {
   text-align: center;
   background-color: #0e1316;
   color: whitesmoke;
-  margin: 0;
 }
 
 h1 {
@@ -72,9 +71,10 @@ hr {
 }
 
 .profile {
-  width: 10vh;
   float: left;
-  margin-right: 7vw;
+  margin: 0 5vw 5vw;
+  width: 30vw;
+  border-radius: 100%;
 }
 
 .username {
@@ -100,23 +100,23 @@ h4 {
 
 .div-socials {
   width: 95vw;
-  margin: 15vw 10vw;
+  margin: 15vw auto;
 }
 
 .icons {
   width: 30vw;
   border-radius: 100%;
-  margin-bottom: 5vw;
+  margin-bottom: 3vw;
 }
 
 .skills-img {
   float: right;
-  margin-left: 5vw;
+  margin-left: 3vw;
 }
 
 .contact-img {
   float: left;
-  margin-right: 5vw;
+  margin-right: 3vw;
 }
 
 .desc {
