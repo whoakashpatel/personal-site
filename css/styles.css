@@ -32,7 +32,7 @@ hr {
   height: 2vh;
 }
 
-.blank {
+.blank-end-div {
   height: 45vh;
 }
 
@@ -86,7 +86,7 @@ hr {
 }
 
 h4 {
-  font-size: 3vw;
+  font-size: 5vw;
   text-align: left;
   line-height: 0;
   font-family: 'Rajdhani', sans-serif;
@@ -106,29 +106,42 @@ h4 {
 .icons {
   width: 30vw;
   border-radius: 100%;
-  margin-bottom: 3vw;
-}
-
-.skills-img {
-  float: right;
-  margin-left: 3vw;
-}
-
-.contact-img {
-  float: left;
-  margin-right: 3vw;
+  margin: 0 auto 10vw;
 }
 
 .desc {
+  text-align: left;
   font-size: 5vw;
   font-family: 'Rajdhani', sans-serif;
-  text-align: left;
 }
 
-.reldiv {
-  background-color: #0e1316aa;
+.fixed-div {
   position: fixed;
   bottom: 0;
   width: 100vw;
   height: 42vh;
+}
+
+.skillsTable {
+  width: 100%;
+  margin: 10vw 0 15vw;
+}
+
+td {
+  color: #ced4da;
+  border-color: #495057;
+  font-family: 'Rajdhani', sans-serif;
+  border-style: solid;
+  border-width: .2px;
+  padding: 3vw;
+}
+
+.headCells {
+  color: #a760ff;
+  background-color: #212529;
+  font-family: 'Happy Monkey', cursive;
+  border-color: #343a40;
+  border-style: solid;
+  border-width: .2px;
+  padding: 3vw;
 }
